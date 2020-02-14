@@ -11,6 +11,7 @@ This dataset represents a series of patient tumor data and their diagnostics (M 
 ## The Workflow
 The workflow is divided in three parts:
 1. `training/model_building.py`, responsible for data ingestion, model buiding and model persistence.
+	- You can check out the Jupyter Notebook for the model building part on this project's `notebook` folder.
 2. `api/app.py`, responsible for loading and setting up the API in which the model will be served.
 3. `start.sh`, a shell script responsible for setting up the container environment and orchestrating the workflow.
 
@@ -65,12 +66,6 @@ Response example:
 As part of this exercise, I was asked to propose an AWS infrastructure that would be able to run this workflow as efficiently and cheap as possible, so I designed a diagram that pretty much sums this up.
 
 ![AWS Infra](./notebook/notebook_images/AWS_infra.png)
-
----
-
-## Last but not least
-
-You can check out the Jupyter Notebook for the model building part on this project's `notebook` folder.
 
 ## Contact
 Victor Valente
