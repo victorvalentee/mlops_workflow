@@ -1,8 +1,8 @@
 openapi: 3.0.0
 
 info:
-  title: iFood ML Model Server
-  description: This API serves a ML model which can predict instances sent by an iFood client.
+  title: ML Model Server
+  description: This API serves a ML model which can predict instances sent by a client.
   version: 0.1.0
 
 servers:
@@ -12,7 +12,7 @@ paths:
   /predict:
     post:
       summary: Returns the model prediction.
-      description: This route is responsible for receiving requests from iFood clients and responding the model predictions for said requests.
+      description: This route is responsible for receiving requests from clients and responding the model predictions for said requests.
       requestBody:
         required: true
         content:

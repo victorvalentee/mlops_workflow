@@ -1,4 +1,4 @@
-# iFood MLOps Engineer Test
+# MLOps Workflow
 
 This repository holds all necessary code and instructions to run an **automated Machine Learning classification worflow** on the [Breast Cancer Winsconsin Diagnostics Dataset](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
 
@@ -17,7 +17,7 @@ The workflow is divided in three parts:
 
 ## The API
 
-Click [here](https://app.swaggerhub.com/apis/victorvalentee/iFoodMLTestAPI/0.1.0) for this API's full Swagger documentation. It's a very simple API with a POST endpoint that a client can make requests to.
+Click [here](https://app.swaggerhub.com/apis/victorvalentee/MLOpsAPI/0.1.0) for this API's full Swagger documentation. It's a very simple API with a POST endpoint that a client can make requests to.
 
 Request body example:
 ```json
@@ -63,7 +63,7 @@ Response example:
 
 ## AWS Proposed Infrastructure
 
-As part of this exercise, I was asked to propose an AWS infrastructure that would be able to run this workflow as efficiently and cheap as possible, so I designed a diagram that pretty much sums this up.
+As part of this project, I propose an AWS infrastructure that would be able to run this workflow as efficiently and cheap as possible, so I designed a diagram that pretty much sums this up.
 
 ![AWS Infra](./notebook/notebook_images/AWS_infra.png)
 
