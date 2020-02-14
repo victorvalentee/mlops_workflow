@@ -1,0 +1,92 @@
+openapi: 3.0.0
+
+info:
+  title: iFood ML Model Server
+  description: This API serves a ML model which can predict instances sent by an iFood client.
+  version: 0.1.0
+
+servers:
+  - url: localhost:5000
+
+paths:
+  /predict:
+    post:
+      summary: Returns the model prediction.
+      description: This route is responsible for receiving requests from iFood clients and responding the model predictions for said requests.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/instance'
+      responses:
+        200:
+          description: OK.
+        400:
+          description: Wrong instance format.
+
+components:
+  schemas:
+    instance:
+      type: object
+      properties:
+        mean radius:
+          type: number
+        mean texture:
+          type: number
+        mean perimeter:
+          type: number
+        mean area:
+          type: number
+        mean smoothness:
+          type: number
+        mean compactness:
+          type: number
+        mean concavity:
+          type: number
+        mean concave points:
+          type: number
+        mean symmetry:
+          type: number
+        mean fractal dimension:
+          type: number
+        radius error:
+          type: number
+        texture error:
+          type: number
+        perimeter error:
+          type: number
+        area error:
+          type: number
+        smoothness error:
+          type: number
+        compactness error:
+          type: number
+        concavity error:
+          type: number
+        concave points error:
+          type: number
+        symmetry error:
+          type: number
+        fractal dimension error:
+          type: number
+        worst radius:
+          type: number
+        worst texture:
+          type: number
+        worst perimeter:
+          type: number
+        worst area:
+          type: number
+        worst smoothness:
+          type: number
+        worst compactness:
+          type: number
+        worst concavity:
+          type: number
+        worst concave points:
+          type: number
+        worst symmetry:
+          type: number
+        worst fractal dimension:
+          type: number
