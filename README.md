@@ -66,6 +66,7 @@ As part of this exercise, I was asked to propose an AWS infrastructure that woul
 
 ![AWS Infra](./notebook/notebook_images/AWS_infra.png)
 
+---
 
 ## Last but not least
 
