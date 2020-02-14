@@ -69,6 +69,6 @@ As part of this exercise, I was asked to propose an AWS infrastructure that woul
 
 ## Contact
 Victor Valente
-E-mail: victorvalentee@gmail.com
-Tel: (16) 99606-8896
-LinkedIn: https://www.linkedin.com/in/victorvalenteoficial/
+- E-mail: victorvalentee@gmail.com
+- Tel: (16) 99606-8896
+- LinkedIn: https://www.linkedin.com/in/victorvalenteoficial/
