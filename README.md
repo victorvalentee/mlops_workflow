@@ -33,7 +33,10 @@ Response example:
 
 1. Clone this repo:
 
-	```$ git clone https://github.com/victorvalentee/mlops_test.git```
+	```
+	$ git clone https://github.com/victorvalentee/mlops_test.git
+	$ cd mlops_test
+	```
 
 2. Run it on Docker!
 
@@ -68,7 +71,5 @@ As part of this project, I propose an AWS infrastructure that would be able to r
 ![AWS Infra](./notebook/notebook_images/AWS_infra.png)
 
 ## Contact
-Victor Valente
 - E-mail: victorvalentee@gmail.com
-- Tel: (16) 99606-8896
 - LinkedIn: https://www.linkedin.com/in/victorvalenteoficial/
