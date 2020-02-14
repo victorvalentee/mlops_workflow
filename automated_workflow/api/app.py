@@ -25,6 +25,12 @@ def predict():
     prediction = model.predict([np.array(list(data.values()))])
 
     output = str(prediction[0])
+    
+    if output == "1":
+        output = "Benign"
+    else:
+        output = "Malignant"
+    
     return jsonify(output)
 
 if __name__ == "__main__":
