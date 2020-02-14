@@ -33,7 +33,7 @@ Response example:
 
 1. Clone this repo:
 
-	```$ git clone https://github.com/victorvalentee/ifood_mlops_test.git```
+	```$ git clone https://github.com/victorvalentee/mlops_test.git```
 
 2. Run it on Docker!
 
