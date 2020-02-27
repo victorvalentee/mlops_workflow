@@ -1,6 +1,6 @@
 # MLOps Workflow
 
-This repository holds all necessary code and instructions to run an **automated Machine Learning classification worflow** on the [Breast Cancer Winsconsin Diagnostics Dataset](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
+This repository holds all necessary code and instructions to run an **automated Machine Learning classification workflow** on the [Breast Cancer Wisconsin Diagnostics Dataset](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data).
 
 This dataset represents a series of patient tumor data and their diagnostics (M = malignant, B = benign), and our automated workflow contains the following steps:
 - data ingestion
