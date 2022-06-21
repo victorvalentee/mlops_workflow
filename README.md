@@ -34,8 +34,8 @@ Response example:
 1. Clone this repo:
 
 	```
-	$ git clone https://github.com/victorvalentee/mlops_test.git
-	$ cd mlops_test
+	$ git clone https://github.com/victorvalentee/mlops_workflow.git
+	$ cd mlops_workflow
 	```
 
 2. Run it on Docker!
